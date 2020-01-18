@@ -159,6 +159,25 @@ upasna_face_encoding = face_recognition.face_encodings(upasna_image)[0]
 billy_image = face_recognition.load_image_file("Images/Billy.jpg")
 billy_face_encoding = face_recognition.face_encodings(billy_image)[0]
 
+dylan_image = face_recognition.load_image_file("Images/Dylan.png")
+dylan_face_encoding = face_recognition.face_encodings(dylan_image)[0]
+
+ahmar_image = face_recognition.load_image_file("Images/Ahmar.png")
+ahmar_face_encoding = face_recognition.face_encodings(ahmar_image)[0]
+
+gaurav_image = face_recognition.load_image_file("Images/Gaurav.png")
+gaurav_face_encoding = face_recognition.face_encodings(gaurav_image)[0]
+
+sean_image = face_recognition.load_image_file("Images/Sean.jpg")
+sean_face_encoding = face_recognition.face_encodings(sean_image)[0]
+
+todd_image = face_recognition.load_image_file("Images/Todd.jpg")
+todd_face_encoding = face_recognition.face_encodings(todd_image)[0]
+
+waldo_image = face_recognition.load_image_file("Images/Waldo.png")
+waldo_face_encoding = face_recognition.face_encodings(waldo_image)[0]
+
+
 # Load a second sample picture and learn how to recognize it.
 # biden_image = face_recognition.load_image_file("biden.jpg")
 # biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
@@ -212,7 +231,13 @@ known_face_encodings = [
     thuria_face_encoding,
     tristan_face_encoding,
     upasna_face_encoding,
-    billy_face_encoding
+    billy_face_encoding,
+    dylan_face_encoding,
+    ahmar_face_encoding,
+    gaurav_face_encoding,
+    sean_face_encoding,
+    todd_face_encoding,
+    waldo_face_encoding
 ]
 known_face_names = [
     "Jorge A. Cavazos",
@@ -262,7 +287,13 @@ known_face_names = [
     "Thuria Abdelaziz",
     "Tristan Patrick Serigny",
     "Upasna Gautam",
-    "Wenbin Billy Zhao"
+    "Wenbin Billy Zhao",
+    "Dylan Rossi",
+    "Ahmar Jamal",
+    "Gaurav Gul Lalwani",
+    "Sean Dombrowski",
+    "Todd Simmons",
+    "Waldo!!!"
 ]
 
 # Initialize some variables

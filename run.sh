@@ -1,1 +1,0 @@
-FLASK_APP=Facial_Rec/script2.py flask run
