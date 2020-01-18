@@ -1,4 +1,4 @@
-# MachineLearning_FacialRec
+# Machine_Learning_FacialRec
 
 
 
