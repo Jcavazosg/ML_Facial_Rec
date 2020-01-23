@@ -177,6 +177,62 @@ todd_face_encoding = face_recognition.face_encodings(todd_image)[0]
 waldo_image = face_recognition.load_image_file("Images/Waldo.png")
 waldo_face_encoding = face_recognition.face_encodings(waldo_image)[0]
 
+goel_image = face_recognition.load_image_file("Images/anu_ranjan_goel.jpg")
+goel_face_encoding = face_recognition.face_encodings(goel_image)[0]
+
+ramirez_image = face_recognition.load_image_file("Images/carla_ramirez.jpg")
+ramirez_face_encoding = face_recognition.face_encodings(ramirez_image)[0]
+
+valentine_image = face_recognition.load_image_file("Images/charles_valentine.jpg")
+valentine_face_encoding = face_recognition.face_encodings(valentine_image)[0]
+
+stedman_image = face_recognition.load_image_file("Images/danna_stedman.jpg")
+stedman_face_encoding = face_recognition.face_encodings(stedman_image)[0]
+
+franklin_image = face_recognition.load_image_file("Images/david_franklin.jpg")
+franklin_face_encoding = face_recognition.face_encodings(franklin_image)[0]
+
+wolfcale_image = face_recognition.load_image_file("Images/debysue_wolfcale.jpg")
+wolfcale_face_encoding = face_recognition.face_encodings(wolfcale_image)[0]
+
+farre_image = face_recognition.load_image_file("Images/doug_farre.jpg")
+farre_face_encoding = face_recognition.face_encodings(farre_image)[0]
+
+walton_image = face_recognition.load_image_file("Images/gordon_walton.jpg")
+walton_face_encoding = face_recognition.face_encodings(walton_image)[0]
+
+pappano_image = face_recognition.load_image_file("Images/joe_pappano.jpg")
+pappano_face_encoding = face_recognition.face_encodings(pappano_image)[0]
+
+yap_image = face_recognition.load_image_file("Images/joshua_yap.jpg")
+yap_face_encoding = face_recognition.face_encodings(yap_image)[0]
+
+desai_image = face_recognition.load_image_file("Images/kratu_desai.jpg")
+desai_face_encoding = face_recognition.face_encodings(desai_image)
+
+watt_image = face_recognition.load_image_file("Images/kristy_watt.jpg")
+watt_face_encoding = face_recognition.face_encodings(watt_image)[0]
+
+berliner_image = face_recognition.load_image_file("Images/nathan_berliner.jpg")
+berliner_face_encoding = face_recognition.face_encodings(berliner_image)[0]
+
+kohl_image = face_recognition.load_image_file("Images/neal_kohl.jpg")
+kohl_face_encoding = face_recognition.face_encodings(kohl_image)[0]
+
+baranga_image = face_recognition.load_image_file("Images/preeti_baranga.jpg")
+baranga_face_encoding = face_recognition.face_encodings(baranga_image)[0]
+
+caflisch_image = face_recognition.load_image_file("Images/tod_caflisch.jpg")
+caflisch_face_encoding = face_recognition.face_encodings(caflisch_image)[0]
+
+ntim_image = face_recognition.load_image_file("Images/william_ntim.jpg")
+ntim_face_encoding = face_recognition.face_encodings(ntim_image)[0]
+
+chan_image = face_recognition.load_image_file("Images/ying_chan.jpg")
+chan_face_encoding = face_recognition.face_encodings(chan_image)[0]
+
+yp_image = face_recognition.load_image_file("Images/yuriy_pakhotin.jpg")
+yp_face_encoding = face_recognition.face_encodings(yp_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
 # biden_image = face_recognition.load_image_file("biden.jpg")
@@ -225,7 +281,7 @@ known_face_encodings = [
     rutabah_face_encoding,
     sam_face_encoding,
     sarah_face_encoding,
-    steven_face_encoding,
+    steven_face_encoding,d
     stevenH_face_encoding,
     teresa_face_encoding,
     thuria_face_encoding,
@@ -237,7 +293,27 @@ known_face_encodings = [
     gaurav_face_encoding,
     sean_face_encoding,
     todd_face_encoding,
-    waldo_face_encoding
+    waldo_face_encoding,
+    goel_face_encoding,
+    ramirez_face_encoding,
+    valentine_face_encoding,
+    stedman_face_encoding,
+    franklin_face_encoding,
+    wolfcale_face_encoding,
+    farre_face_encoding,
+    walton_face_encoding,
+    pappano_face_encoding,
+    yap_face_encoding,
+    desai_face_encoding, 
+    watt_face_encoding,
+    berliner_face_encoding,
+    kohl_face_encoding,
+    baranga_face_encoding,
+    caflisch_face_encoding,
+    ntim_face_encoding,
+    chan_face_encoding,
+    yp_face_encoding
+
 ]
 known_face_names = [
     "Jorge A. Cavazos",
@@ -293,7 +369,27 @@ known_face_names = [
     "Gaurav Gul Lalwani",
     "Sean Dombrowski",
     "Todd Simmons",
-    "Waldo!!!"
+    "Waldo!!!",
+    "Anu Ranjan Goel, APS Systems",
+    "Carla Ramirez, The Knot",
+    "Charles Valentine, Indeed",
+    "Danna Stedman, GTS",
+    "David Franklin, KnowRX",
+    "DebySue Wolfcale, ArtCraft Entertainment",
+    "Doug Farre, Indeed",
+    "Gordon Walton, ArtCraft Entertainment",
+    "Joe Pappano, Arrive Logistics",
+    "Joshua Yap, Civitas Learning",
+    "Kratu Desai, Desaign Studio",
+    "Kristy Watt, Shiseido",
+    "Nathan Berliner, National Instruments",
+    "Neal Kohl, Dell",
+    "Preeti Baranga, DFPS",
+    "Tod Caflisch, TechFoundry LLC",
+    "William Ntim, The Home Depot",
+    "Ying Chan, City of Austin",
+    "Yuriy Pakhotin, General Motors"
+
 ]
 
 # Initialize some variables
