@@ -1,4 +1,4 @@
-opencv_python==4.1.2.30
+opencv_python==4.2.0.32
 numpy==1.16.2
 face_recognition==1.2.3
 appnope==0.1.0
